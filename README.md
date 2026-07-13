@@ -45,57 +45,8 @@ Maneja de forma exclusiva el diseño visual y los eventos de usuario, interactua
 
 ---
 
-## 💻 Muestra del Código Clave
 
-Un pilar del proyecto es la clase centralizada de datos, diseñada para evitar la duplicación de código y garantizar consultas seguras mediante el uso de parámetros, mitigando riesgos como *SQL Injection*:
 
-```csharp
-// Fragmento estratégico de la arquitectura de datos implementada
-public class AccesoDatos
-{
-    private SqlConnection conexion;
-    private SqlCommand comando;
-    private SqlDataReader lector;
-
-    public SqlDataReader Lector => lector;
-
-    public AccesoDatos()
-    {
-        conexion = new SqlConnection("server=.\\SQLEXPRESS; database=POKEDEX_DB; integrated security=true");
-        comando = new SqlCommand();
-    }
-
-    public void setearConsulta(string consulta)
-    {
-        comando.CommandType = System.Data.CommandType.Text;
-        comando.CommandText = consulta;
-    }
-
-    public void ejecutarLectura()
-    {
-        comando.Connection = conexion;
-        try
-        {
-            conexion.Open();
-            lector = comando.ExecuteReader();
-        }
-        catch (Exception ex)
-        {
-            throw ex;
-        }
-    }
-
-    public void setearParametro(string nombre, object valor)
-    {
-        comando.Parameters.AddWithValue(nombre, valor);
-    }
-
-    public void cerrarConexion()
-    {
-        if (lector != null) lector.Close();
-        conexion.Close();
-    }
-}
 ## 📸 Capturas de Pantalla
 
 Aquí puedes ver la aplicación en funcionamiento:
@@ -104,10 +55,10 @@ Aquí puedes ver la aplicación en funcionamiento:
 ![Pantalla Principal](https://github.com/Priscila-Rachel/Pokemon-manager-ado-net/raw/467495bcc9785b84bf71eb71e2c2d3d02ae47788/aplicacion%20.png)
 
 ### Dar de Alta un Nuevo Pokémon
-![Alta de Pokémon](https://github.com/Priscila-Rachel/Pokemon-manager-ado-net/raw/main/dar%20de%20alta%20un%20pokemon%20(agregar%20un%20nuevo%20pokemon).png)
+![Alta de Pokémon](https://github.com/Priscila-Rachel/Pokemon-manager-ado-net/raw/467495bcc9785b84bf71eb71e2c2d3d02ae47788/dar%20de%20alta%20un%20pokemon%20(agregar%20un%20nuevo%20pokemon).png)
 
 ### Modificar Datos de un Pokémon
-![Modificación de Pokémon](https://github.com/Priscila-Rachel/Pokemon-manager-ado-net/raw/main/modificar%20pokemon.png)
+![Modificación de Pokémon](https://github.com/Priscila-Rachel/Pokemon-manager-ado-net/raw/467495bcc9785b84bf71eb71e2c2d3d02ae47788/modificar%20pokemon.png)
 
 
 
