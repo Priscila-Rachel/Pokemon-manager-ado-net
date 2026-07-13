@@ -4,7 +4,7 @@ Es una aplicación de escritorio robusta orientada a la gestión integral de un 
 
 La persistencia de datos se maneja de forma nativa a través de la arquitectura **ADO.NET**, conectándose directamente a un motor de base de datos relacional.
 
-## 🚀 Características y Funcionalidades
+##  Características y Funcionalidades
 
 * **CRUD Completo:** Gestión total de entidades (Listar, Agregar, Modificar y Eliminar Pokémon).
 * **Filtros de Búsqueda Duplicados:**
@@ -14,7 +14,7 @@ La persistencia de datos se maneja de forma nativa a través de la arquitectura 
 * **Validaciones Robustas:** Control de ingreso de datos requeridos, tipos de datos correctos y manejo de estados para evitar excepciones en la UI.
 * **Controles Dinámicos:** Implementación avanzada de componentes de Windows Forms (`ComboBox` enlazados a datos, `Label`, `PictureBox`, etc.).
 
-## 🛠️ Tecnologías y Herramientas
+##  Tecnologías y Herramientas
 
 * **Lenguaje:** C# (.NET)
 * **Interfaz de Usuario (UI):** Windows Forms (WinForms)
@@ -24,7 +24,7 @@ La persistencia de datos se maneja de forma nativa a través de la arquitectura 
 
 ---
 
-## 🏗️ Arquitectura del Proyecto (Estructura en Capas)
+##  Arquitectura del Proyecto (Estructura en Capas)
 
 Para separar las responsabilidades de la aplicación de manera profesional, el diseño se dividió en tres capas principales:
 
@@ -47,7 +47,7 @@ Maneja de forma exclusiva el diseño visual y los eventos de usuario, interactua
 
 
 
-## 📸 Capturas de Pantalla
+##  Capturas de Pantalla
 
 Aquí puedes ver la aplicación en funcionamiento:
 
