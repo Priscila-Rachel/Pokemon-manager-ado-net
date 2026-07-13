@@ -96,22 +96,18 @@ public class AccesoDatos
         conexion.Close();
     }
 }
-
----
-
 ## 📸 Capturas de Pantalla
 
 Aquí puedes ver la aplicación en funcionamiento:
 
 ### Pantalla Principal (Listado y Búsqueda)
-![image alt](aplicacion%20.png)
+![Pantalla Principal](https://github.com/Priscila-Rachel/Pokemon-manager-ado-net/raw/467495bcc9785b84bf71eb71e2c2d3d02ae47788/aplicacion%20.png)
 
 ### Dar de Alta un Nuevo Pokémon
-![Alta de Pokémon](dar de alta un pokemon (agregar un nuevo pokemon).png)
+![Alta de Pokémon](https://github.com/Priscila-Rachel/Pokemon-manager-ado-net/raw/main/dar%20de%20alta%20un%20pokemon%20(agregar%20un%20nuevo%20pokemon).png)
 
 ### Modificar Datos de un Pokémon
-![Modificación de Pokémon](modificar pokemon.png)
+![Modificación de Pokémon](https://github.com/Priscila-Rachel/Pokemon-manager-ado-net/raw/main/modificar%20pokemon.png)
 
----
 
 
