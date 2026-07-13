@@ -104,7 +104,7 @@ public class AccesoDatos
 Aquí puedes ver la aplicación en funcionamiento:
 
 ### Pantalla Principal (Listado y Búsqueda)
-![image alt](https://github.com/Priscila-Rachel/Pokemon-manager-ado-net/blob/467495bcc9785b84bf71eb71e2c2d3d02ae47788/aplicacion%20.png)
+![image alt](aplicacion%20.png)
 
 ### Dar de Alta un Nuevo Pokémon
 ![Alta de Pokémon](dar de alta un pokemon (agregar un nuevo pokemon).png)
