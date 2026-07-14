@@ -2,7 +2,7 @@
 
 Es una aplicación de escritorio robusta orientada a la gestión integral de un catálogo de Pokémon. El proyecto fue diseñado aplicando el paradigma de **Programación Orientada a Objetos (POO)** y una **arquitectura en capas**, logrando un código desacoplado, mantenible y escalable.
 
-La persistencia de datos se maneja de forma nativa a través de la arquitectura **ADO.NET**, conectándose directamente a un motor de base de datos relacional.
+Se utiliza ADO.NET para conectar la aplicación directamente con la base de datos SQL Server y gestionar la persistencia de los datos.
 
 ##  Características y Funcionalidades
 
