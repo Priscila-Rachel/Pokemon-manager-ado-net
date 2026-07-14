@@ -1,6 +1,6 @@
 # Pokémon Desktop Manager (`pokemon-manager-ado-net`)
 
-Es una aplicación de escritorio robusta orientada a la gestión integral de un catálogo de Pokémon. El proyecto fue diseñado aplicando el paradigma de **Programación Orientada a Objetos (POO)** y una **arquitectura en capas**, logrando un código desacoplado, mantenible y escalable.
+Es una aplicación de escritorio en la cual se utilizo Windows Forms, orientada a la gestión integral de un catálogo de Pokémon. El proyecto fue diseñado aplicando el paradigma de **Programación Orientada a Objetos (POO)** y una **arquitectura en capas**, logrando un código desacoplado, mantenible y escalable.
 
 Se utiliza ADO.NET para conectar la aplicación directamente con la base de datos SQL Server y gestionar la persistencia de los datos.
 
